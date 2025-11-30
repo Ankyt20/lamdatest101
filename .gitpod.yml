@@ -1,0 +1,3 @@
+tasks:
+  - init: npx playwright install; npx playwright install-deps; npm install
+    command: npm run test
